@@ -6,7 +6,7 @@ public class Ejercicio5 {
     System.out.print("Introduce la cantidad de pesetas que quieres pasar a euros: ");
         int pesetas = leer.nextInt();
         float euros = pesetas/166;
-    System.out.printf("%d pesetas en euros son aproximadamente: %.2f €",pesetas, euros);
+    System.out.printf("%d pesetas en euros son aproximadamente: %.2f €.",pesetas, euros);
 
     leer.close();
     }
