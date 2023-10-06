@@ -9,7 +9,7 @@ public class Ejercicio1 {
         System.out.print("Escribe el segundo número: ");
         int n2 = sc.nextInt();
 
-        System.out.println("El resultado de "+n1+" * "+n2+" es: "+n1*n2);
+        System.out.println("El resultado de "+n1+" * "+n2+" es: "+(n1*n2));
 
         sc.close();
     }
