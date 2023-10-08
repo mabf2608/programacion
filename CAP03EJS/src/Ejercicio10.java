@@ -7,7 +7,6 @@ public class Ejercicio10 {
         double Mb = sc.nextDouble();
         double Kb = Mb*1000;
         System.out.printf("%.2f Mb son un total de %.2f Kb: ",Mb,Kb);
-        
         sc.close();
     }
 }
