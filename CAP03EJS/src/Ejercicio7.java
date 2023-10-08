@@ -11,7 +11,7 @@ public class Ejercicio7 {
 
         System.out.printf("%-16s\t%5.2f%n","Base imponible: ",base);
         System.out.printf("%16s\t%5.2f%n","IVA: ",iva);
-        System.out.printf("------------------------------%n");
+        System.out.printf("-------------------------------------%n");
         System.out.printf("%16s\t%5.2f%n","Total: ",total);
         
         sc.close();
