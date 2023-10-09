@@ -7,17 +7,17 @@ public class Ejercicio1 {
         Scanner sc = new Scanner(System.in);
         String dia = sc.nextLine();
 
-        if (dia.equals("Lunes") || dia.equals("Jueves")){
+        if (dia.toUpperCase().equals("LUNES") || dia.toUpperCase().equals("JUEVES")){
             System.out.println("Tienes programación.");
         }else{
-            if (dia.equals("Martes") || dia.equals("Miercoles")){
+            if (dia.toUpperCase().equals("MARTES") || dia.toUpperCase().equals("MIERCOLES")){
                 System.out.println("Tienes Lenguaje de Marcas.");
             }else{
-                if (dia.equals("Viernes")){
+                if (dia.toUpperCase().equals("VIERNES")){
                     System.out.println("Tienes Formación y Orientación Laboral.");
                 }else{
-                    if (dia.equals("Sabado") || dia.equals("Domingo")){
-                        System.out.println("Esos días no hay clase.");
+                    if (dia.toUpperCase().equals("SABADO") || dia.toUpperCase().equals("DOMINGO")){
+                        System.out.println("Ese día no hay clase.");
                     }else{
                         System.out.println("Día introducido incorrecto, recuerda que no deben llevar tildes.");
                     }
