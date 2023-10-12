@@ -6,6 +6,9 @@ public class Ejercicio10 {
         System.out.print("Introduce el mes en el que naciste: ");
         int mes = Integer.parseInt(System.console().readLine());
 
+        if ((dia > 31 || dia < 1 ) || (mes > 12 || mes <= 1 )){
+            System.out.println("ERROR: FECHA INCORRECTA.");
+        }else{
         if (((dia >= 21 && dia <= 31 ) && mes == 3) || ((dia >= 0 && dia <= 19 ) && mes == 4)){
             System.out.println("ERES ARIES.");
         }else{
@@ -41,6 +44,7 @@ public class Ejercicio10 {
         }else{
             if (((dia >= 19 && dia <= 29 ) && mes == 2) || ((dia >= 0 && dia <= 22 ) && mes == 3)){
             System.out.println("ERES PISCIS.");
+              }
              }
             }
            }
