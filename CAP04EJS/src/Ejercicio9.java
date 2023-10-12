@@ -22,8 +22,8 @@ public class Ejercicio9 {
         }else{
         if (ec1 != ec2){
             System.out.println("Tiene dos soluciones reales: ");
-            System.out.println("x1 = "+ec1);
-            System.out.println("x2 = "+ec2);
+            System.out.printf("x1 = %.2f%n",ec1);
+            System.out.printf("x2 = %.2f%n",ec2);
         }else{
             if (ec1 == ec2){
             System.out.println("x = "+ ec1);
