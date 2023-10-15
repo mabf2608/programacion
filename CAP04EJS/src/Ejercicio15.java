@@ -7,8 +7,8 @@ public class Ejercicio15 {
         System.out.println("SELECCIONA HACIA DONDE SEÑALARÁ EL VÉRTICE DE LA PIRÁMIDE.");
         System.out.println("1.- Arriba.");
         System.out.println("2.- Abajo.");
-        System.out.println("3.- Izquierda.");
-        System.out.println("4.- Derecha.");
+        System.out.println("3.- Derecha.");
+        System.out.println("4.- Izquierda.");
         int n = Integer.parseInt(System.console().readLine());
         System.out.println();
         switch(n){
@@ -33,7 +33,7 @@ public class Ejercicio15 {
             break;
 
             case 3:
-            System.out.println("Has elegido hacia la izquierda.");
+            System.out.println("Has elegido hacia la derecha.");
             System.out.println();
             System.out.printf("%5s%n",""+car);
             System.out.printf("%6s%n",""+car+car);
