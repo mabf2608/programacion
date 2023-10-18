@@ -7,12 +7,13 @@ public class Ejercicio21 {
         System.out.println("Introduce la nota de tu segundo examen de programación: ");
         float n2 = Float.parseFloat(System.console().readLine());
         float media = (n1+n2)/2;
-        if (media >= 5){
+        if (media >= 5 && media <=10){
             System.out.println();
             System.out.printf("Nota del primer control: %.2f%n",n1);
             System.out.printf("Nota del segundo control: %.2f%n",n2);
             System.out.printf("Nota del módulo: %.2f%n",media);
         }else{
+            if (media >= 0 && media < 5){
             System.out.println();
             System.out.printf("Nota del primer control: %.2f%n",n1);
             System.out.printf("Nota del segundo control: %.2f%n",n2);
@@ -25,12 +26,13 @@ public class Ejercicio21 {
             }else{
             System.out.printf("Tu nota de programación es: %.2f%n",media);
             }
-        }
-        }catch (NumberFormatException e){
-            System.out.println("No has introducido una nota válida.");
+            }else{
+                System.out.println();
+                System.out.println("ERROR: Nota introducida no válida.");
+            }
+            }
         }catch (Exception e) {
             System.out.println("Ha habido un error inesperado, vuelve a intentarlo.");
         }
-        
     }
 }
