@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class Ejercicio2 {
     public static void main(String[] args) {
+        try {
+            
+        
         System.out.println();
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduce la hora que es sin minutos (1 al 24): ");
@@ -21,5 +24,10 @@ public class Ejercicio2 {
             }
         }
     sc.close();
+        } catch (NumberFormatException e){
+            System.out.println("No has introducido una hora.");
+        }catch (Exception e) {
+            System.out.println("Se ha producido un error inesperado.");
+        }
     }
 }
