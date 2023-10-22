@@ -1,0 +1,24 @@
+public class Ejercicio13 {
+    public static void main(String[] args) {
+        try{
+        System.out.println();
+        System.out.println("Introduce 10 números y te diré que cantidad de esos números es positivo y cual es negativo: ");
+        int n,po,ne;
+        po=0;
+        ne=0;
+        for(int i = 1;i<=10;i++){
+            System.out.println("Número "+i+": ");
+            n = Integer.parseInt(System.console().readLine());
+            if (n >= 0){
+                po=po+1;
+            }else{
+                ne=ne+1;
+            }
+        }
+        System.out.println();
+        System.out.printf("Hay una cantidad de %d/10 números positivos y %d/10 números negativos.",po,ne);
+    }catch (Exception e){
+        System.out.println("Ha habido un error inesperado, sigue las instrucciones y vuelve a intentarlo.");
+    }
+    }
+}
