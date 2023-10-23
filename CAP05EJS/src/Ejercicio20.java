@@ -1,4 +1,4 @@
-public class Ejercicio19 {
+public class Ejercicio20 {
     public static void piramide(int v1, String v2, String v3){
         for(int i = 0; i <= v1 ; i ++){
             int salida = 1;
@@ -6,12 +6,24 @@ public class Ejercicio19 {
                 System.out.print(v3);
                 salida++;
             }
+            if (i == 1 || i == v1){
+                for (salida = 1; salida <= i*2-1 ; salida++){
+                    System.out.print(v2);
+                }
+            }else{
             salida = 1;
             while (salida <= 2*i-1){
-                System.out.print(v2);
-                salida ++;
+                if (salida == 1 || salida == 2*i-1){
+                    System.out.print(v2);
+                    salida++;
+                }else{
+                    System.out.print(v3);
+                    salida++;
+                }
             }
+        }
             System.out.println();
+            
         } 
     }
     public static void main(String[] args) {
