@@ -15,7 +15,10 @@ public class Ejercicio18 {
         if (n1<n2){
             mult(n1,n2);
         }else{
+            if(n2>n1)
             mult(n2,n1);
+            else
+            System.out.println("Los números no pueden ser iguales.");
         }
     }
 }
