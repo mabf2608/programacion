@@ -1,6 +1,7 @@
 public class Ejercicio20 {
     public static void piramide(int v1, String v2, String v3){
-        for(int i = 0; i <= v1 ; i ++){
+        System.out.println();
+        for(int i = 1; i <= v1 ; i ++){
             int salida = 1;
             while (salida <= v1-i){
                 System.out.print(v3);
@@ -23,7 +24,6 @@ public class Ejercicio20 {
             }
         }
             System.out.println();
-            
         } 
     }
     public static void main(String[] args) {
