@@ -18,13 +18,20 @@ public class Ejercicio19 {
         System.out.println();
         System.out.print("Introduce la altura de la pirámide: ");
         int alt = Integer.parseInt(System.console().readLine());
-        System.out.print("Introduce el carácter con el que quieras realizar la pirámide: ");
-        String c = System.console().readLine();
+        boolean parar = true;
+        String c="";
+        while(parar){
+            System.out.print("Introduce el carácter con el que quieras realizar la pirámide: ");
+            c = System.console().readLine();
+            int l = c.length();
+            if(l > 1 || l < 0){
+                System.out.println();
+                System.out.println("ERROR: Recuerda introducir solo 1 carácter.");
+            }else{
+                parar=false;
+            }
+        }
         String e = " ";
-        int l = c.length();
-        if(l < 1 && l < 0)
-            System.out.println("ERROR: Recuerda introducir solo 1 carácter.");
-        else
-            piramide(alt, c, e);
+        piramide(alt, c, e);
     }
-}
+} 
