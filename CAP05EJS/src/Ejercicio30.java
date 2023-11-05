@@ -28,6 +28,6 @@ public class Ejercicio30 {
         System.out.print("Hora: ");
         int h2 = Integer.parseInt(System.console().readLine());
         
-
+        System.out.print(""+d1+d2+h1+h2);
     }
 }
