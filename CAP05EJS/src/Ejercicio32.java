@@ -33,7 +33,6 @@ public class Ejercicio32 {
         int l = dato.length();
         long n2=Long.parseLong(dato);
         int suma=0;
-        seguir=true;
         System.out.print("Dígitos pares: ");
         for(i=1;i<=l;i++){
             j=(int)n2%10;
