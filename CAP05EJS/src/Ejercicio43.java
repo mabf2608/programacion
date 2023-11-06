@@ -21,7 +21,7 @@ public class Ejercicio43 {
     }
     public static void main(String[] args) {
         boolean seguir = true;
-        long n = 0;
+        long n=0;
         while (seguir){
             System.out.println();
             System.out.println("Introduce un número entero positivo de 2 dígitos o más: ");
