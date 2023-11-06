@@ -40,7 +40,6 @@ public class Ejercicio43 {
             System.out.println("Introduzca la posición desde la cual se quiere partir el número: ");
             p = Integer.parseInt(System.console().readLine());
             l=digitos(n).length();
-            System.out.println(l);
             if(p>=2 && p<=l){
                 seguir=false;
             }else{
