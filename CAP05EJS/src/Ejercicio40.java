@@ -1,7 +1,7 @@
 /*
 *Ejercicio 40 | Tema 5
 *Sistema Rombo
-*@author Miguel Ángel Bonilla Fernández 1ºDAW
+*@author Miguel Ángel Bonilla Fernández 1ºDAM
 */
 public class Ejercicio40 {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 /*
 *Ejercicio 39 | Tema 5
 *Factoriales
-*@author Miguel Ángel Bonilla Fernández 1ºDAW
+*@author Miguel Ángel Bonilla Fernández 1ºDAM
 */
 public class Ejercicio39 {
     public static void main(String[] args) {

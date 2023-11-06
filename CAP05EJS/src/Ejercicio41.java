@@ -1,7 +1,7 @@
 /*
 *Ejercicio 41 | Tema 5
 *Digitos pares e impares
-*@author Miguel Ángel Bonilla Fernández 1ºDAW
+*@author Miguel Ángel Bonilla Fernández 1ºDAM
 */
 public class Ejercicio41 {
     public static void main(String[] args) {

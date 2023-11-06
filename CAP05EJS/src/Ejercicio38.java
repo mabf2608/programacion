@@ -1,7 +1,7 @@
 /*
 *Ejercicio 38 | Tema 5
 *Reloj de arena relleno
-*@author Miguel Ángel Bonilla Fernández 1ºDAW
+*@author Miguel Ángel Bonilla Fernández 1ºDAM
 */
 public class Ejercicio38 {
     public static void main(String[] args) {
