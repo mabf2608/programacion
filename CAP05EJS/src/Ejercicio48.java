@@ -19,6 +19,7 @@ public class Ejercicio48 {
         return dato;
     }
     public static void main(String[] args) {
+        System.out.println();
         System.out.print("Introduce un número entero: ");
         long n=Integer.parseInt(System.console().readLine());
         String dato=digitos(n);
