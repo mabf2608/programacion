@@ -15,7 +15,7 @@ public class Ejercicio60 {
                 System.out.println();
             }
         }
-        int i=0,j=0,k=0,anch=3,esp=2;
+        int i=0,j=0,anch=3,esp=2;
         for(i=1;i<=a;i++){
             System.out.println();
             if (i<=a-2){
