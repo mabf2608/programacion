@@ -1,3 +1,8 @@
+/*
+*Ejercicio 60 | Tema 5
+*Calcetines
+*@author Miguel Ángel Bonilla Fernández 1ºDAM
+*/
 public class Ejercicio60 {
     public static void main(String[] args) {
         System.out.println();
