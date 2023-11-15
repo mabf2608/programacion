@@ -1,6 +1,6 @@
 /*
-*Ejercicio 10 | Tema 6
-*Líneas de caracteres
+*Ejercicio 11 | Tema 6
+*Notas aleatorias
 *@author Miguel Ángel Bonilla Fernández 1ºDAM
 */
 public class Ejercicio11 {
