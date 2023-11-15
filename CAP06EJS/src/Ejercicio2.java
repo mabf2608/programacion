@@ -7,7 +7,7 @@ public class Ejercicio2 {
     public static void main(String[] args) {
         System.out.println();
         int baraja=(int)(Math.random()*4);
-         String tipob="";
+        String tipob="";
         int carta=(int)(Math.random()*13+1);
         String tipoc="";
         switch (baraja) {
