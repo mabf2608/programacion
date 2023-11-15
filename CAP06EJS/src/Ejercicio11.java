@@ -6,10 +6,10 @@
 public class Ejercicio11 {
     public static void main(String[] args) {
         System.out.println();
-        int i=0,n=0,sus=0,suf=0,bi=0,not=0,sob=0;
+        int sus=0,suf=0,bi=0,not=0,sob=0;
         String nota ="";
-        for (i=1;i<=20;i++){
-            n=(int)(Math.random()*5d);
+        for (int i=1;i<=20;i++){
+            int n=(int)(Math.random()*5d);
             switch (n) {
                 case 0:
                     nota="Suspenso";
