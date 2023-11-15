@@ -30,22 +30,12 @@ public class Ejercicio3 {
                 tipoc="as";
             break;
             case 2:
-                tipoc="2";
-            break;
             case 3:
-                tipoc="3";
-            break;
             case 4:
-                tipoc="4";
-            break;
             case 5:
-                tipoc="5";
-            break;
             case 6:
-                tipoc="6";
-            break;
             case 7:
-                tipoc="7";
+                tipoc=carta+"";
             break;
             case 8:
                 tipoc="sota";
