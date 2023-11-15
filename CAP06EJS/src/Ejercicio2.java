@@ -7,7 +7,9 @@ public class Ejercicio2 {
     public static void main(String[] args) {
         System.out.println();
         int baraja=(int)(Math.random()*4);
-        String tipob="";
+         String tipob="";
+        int carta=(int)(Math.random()*13+1);
+        String tipoc="";
         switch (baraja) {
             case 0:
                 tipob="picas";
@@ -23,38 +25,20 @@ public class Ejercicio2 {
             break;
             default:
         }
-        int carta=(int)(Math.random()*13+1);
-        String tipoc="";
         switch (carta) {
             case 1:
                 tipoc="A";
             break;
             case 2:
-                tipoc="II";
-            break;
             case 3:
-                tipoc="III";
-            break;
             case 4:
-                tipoc="IV";
-            break;
             case 5:
-                tipoc="V";
-            break;
             case 6:
-                tipoc="VI";
-            break;
             case 7:
-                tipoc="VII";
-            break;
             case 8:
-                tipoc="VIII";
-            break;
             case 9:
-                tipoc="IX";
-            break;
             case 10:
-                tipoc="X";
+                tipoc=carta+"";
             break;
             case 11:
                 tipoc="J";
