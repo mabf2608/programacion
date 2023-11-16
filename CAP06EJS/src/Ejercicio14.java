@@ -34,6 +34,7 @@ public class Ejercicio14 {
                         break;
                     default:
                         System.out.println("Debes introducir un valor correcto.");
+                        i--;
                         break;
                 }
                 i++;
