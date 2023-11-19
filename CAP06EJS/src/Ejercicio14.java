@@ -7,7 +7,7 @@ public class Ejercicio14 {
     public static void main(String[] args) {
         System.out.println();
         boolean seguir=true;
-        int min=1, max=100,i=0;
+        int min=-1, max=101,i=0;
         
         while (seguir) {
             if(i==5){
@@ -16,7 +16,7 @@ public class Ejercicio14 {
                 System.out.println();
                 seguir=false;
             }else{
-                int n=(int)((Math.random()*(max-min+1))+min-1);
+                int n=(int)((Math.random()*(max-min-1))+min+1);
                 System.out.printf("He pensado en el número %d, ¿es correcto?. De no ser así indica si es mayor o menor%n",n);
                 String res=System.console().readLine();
                 switch (res.toUpperCase()) {
