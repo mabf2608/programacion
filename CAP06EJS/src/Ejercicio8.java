@@ -4,19 +4,32 @@
 *@author Miguel Ángel Bonilla Fernández 1ºDAM
 */
 public class Ejercicio8 {
+    public static String datopleno(int v1, String v2){
+        switch (v1) {
+            case 0:
+            case 1:
+            case 2:
+                v2=""+v1;
+            break;
+            default:
+                v2="M";
+            break;
+        }
+        return v2;
+    }
     public static String dato(int v1, String v2){
         switch (v1) {
             case 1:
             case 2:
             case 3:
-                v2="1";
+                v2="1  ";
             break;
             case 4:
             case 5:
-                v2="X";
+                v2=" X ";
             break;
             case 6:
-                v2="2";
+                v2="  2";
             break;
             default:
                 break;
@@ -36,8 +49,10 @@ public class Ejercicio8 {
                 System.out.printf("Fila nº %d |%s|%s|%s|",i,dato(c1, dat1),dato(c2, dat2),dato(c3, dat3));
             }
             if (i==15){
+                int p1=(int)(Math.random()*3+1),p2=(int)(Math.random()*4);
+                String dat4="",dat5="";
                 System.out.println();
-                System.out.printf("Pleno al nº %d |%s|%s|%s|",i,dato(c1, dat1),dato(c2, dat2),dato(c3, dat3));
+                System.out.printf("Pleno al nº %d |Local...%s|Visitante...%s|",i,datopleno(p1, dat4),datopleno(p2, dat5));
             }
         }
         System.out.println();

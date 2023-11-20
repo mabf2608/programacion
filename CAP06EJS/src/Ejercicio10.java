@@ -8,7 +8,7 @@ public class Ejercicio10 {
         System.out.println();
         int i=0,j=0,n=0;
         char c =' ';
-        for (i=1;i<=4;i++){
+        for (i=1;i<=10;i++){
             n=(int)(Math.random()*6);
             switch (n) {
                 case 0:
