@@ -4,6 +4,8 @@
 *@author Miguel Ángel Bonilla Fernández 1ºDAM
 */
 public class Ejercicio20 {
+    public static final String RESET="\033[0m";
+    public static final String BLUE_BACKGROUND="\033[44m";
     public static void main(String[] args) {
         System.out.println();
         System.out.print("Introduzca la capacidad de la cuba en litros: ");
@@ -16,10 +18,12 @@ public class Ejercicio20 {
                     if (j==1||j==anch){
                         System.out.print("#");
                     }else{
-                        if (i>=dif)
-                            System.out.print("=");
-                        else
+                        if (i>=dif){
+                            System.out.print(BLUE_BACKGROUND+" ");
+                            System.out.print(RESET);
+                        }else{
                             System.out.print(" ");
+                        }
                     }
                 }
             }else{
