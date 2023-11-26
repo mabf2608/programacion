@@ -1,3 +1,8 @@
+/*
+*Ejercicio 29 | Tema 6
+*Prevision del tiempo.
+*@author Miguel Ángel Bonilla Fernández 1ºDAM
+*/
 public class Ejercicio29 {
     
     public static void Prevision(int tmax, int tmin, int estacion){
