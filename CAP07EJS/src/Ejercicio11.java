@@ -42,7 +42,6 @@ public class Ejercicio11 {
         int[] primo=new int[10];
         int[] noprimo=new int[10];
         int primos=0,noprimos=0;
-        int j;
         int i;
         for(i=0;i<10;i++){
             System.out.printf("Introduce el numero: %d: ",i+1);
