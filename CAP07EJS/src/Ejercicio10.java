@@ -14,7 +14,7 @@ public class Ejercicio10 {
             numero[i]=(int)(Math.random()*101);
             if (numero[i]%2==0){
                 par[pares]=numero[i];
-                pares++;
+                pares++; 
             }else{
                 impar[impares]=numero[i];
                 impares++;
