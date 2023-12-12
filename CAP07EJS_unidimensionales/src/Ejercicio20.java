@@ -1,6 +1,6 @@
 /*
-*Ejercicio 20 | Tema 7
-*Numero en posición concreta de un array
+*Ejercicio 21 | Tema 7
+*Reyes
 *@author Miguel Ángel Bonilla Fernández 1ºDAM
 */
 public class Ejercicio20 {
