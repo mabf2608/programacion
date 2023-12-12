@@ -41,7 +41,6 @@ public class Ejercicio18 {
         int menores=0,mayores=0;
         int i;
         for(i=0;i<10;i++){
-            System.out.printf("Introduce el numero: %d: ",i+1);
             numero[i]=(int)(Math.random()*201);
             if (esmenor_100(numero[i])){
                 menor_100[menores]=numero[i];
@@ -59,11 +58,10 @@ public class Ejercicio18 {
         int cont1=0;
         int cont2=0;
         for (i=0;i<10;i++){
-            if (i%2==0&&cont1<menores||mayores==cont2){;
+            if (i%2==0&&cont1<menores||cont2>=mayores){
                 numero[i]=menor_100[cont1];
                 cont1++;
-            }
-            if (i%2!=0&&cont2<mayores||menores<cont1){
+            }else{
                 numero[i]=mayor_100[cont2];
                 cont2++;
             }
