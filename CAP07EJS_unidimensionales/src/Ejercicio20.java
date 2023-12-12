@@ -1,5 +1,5 @@
 /*
-*Ejercicio 21 | Tema 7
+*Ejercicio 20 | Tema 7
 *Reyes
 *@author Miguel Ángel Bonilla Fernández 1ºDAM
 */
