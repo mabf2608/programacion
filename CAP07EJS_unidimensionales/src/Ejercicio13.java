@@ -1,6 +1,6 @@
 /*
-*Ejercicio 11 | Tema 7
-*Arrays Auxiliares Primos.
+*Ejercicio 13 | Tema 7
+*Arrays Max y Min.
 *@author Miguel Ángel Bonilla Fernández 1ºDAM
 */
 public class Ejercicio13{
