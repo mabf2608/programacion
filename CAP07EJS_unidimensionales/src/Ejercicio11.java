@@ -1,6 +1,6 @@
 /*
 *Ejercicio 11 | Tema 7
-*Arrays Auxiliares.
+*Arrays Auxiliares Primos.
 *@author Miguel Ángel Bonilla Fernández 1ºDAM
 */
 public class Ejercicio11 {
@@ -18,23 +18,23 @@ public class Ejercicio11 {
         int i;
         for(i=0;i<10;i++){
             if (i==0){
-                System.out.printf("----------------------------------------------------------------------%n");
-                System.out.printf("| Índice |  %d  |",i);
+                System.out.printf("--------------------------------------------------------------------------------%n");
+                System.out.printf("| Índice |%3d   |",i);
             }else{
-                System.out.printf("  %d  |",i);
+                System.out.printf("%3d   |",i);
             }
         }
         System.out.println();
         for(i=0;i<10;i++){
             if (i==0){
-                System.out.printf("----------------------------------------------------------------------%n");
-                System.out.printf("| Valor  |  %d |",numero[i]);
+                System.out.printf("--------------------------------------------------------------------------------%n");
+                System.out.printf("| Valor  |%3d   |",numero[i]);
             }else{
-                System.out.printf("  %d |",numero[i]);
+                System.out.printf("%3d   |",numero[i]);
             }
         }
         System.out.println();
-        System.out.println("----------------------------------------------------------------------");
+        System.out.println("--------------------------------------------------------------------------------");
     }
     public static void main(String[] args) {
         System.out.println();

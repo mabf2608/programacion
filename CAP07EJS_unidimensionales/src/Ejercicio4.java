@@ -9,11 +9,13 @@ public class Ejercicio4 {
         int[] numero=new int[20];
         int[] cuadrado=new int[20];
         int[] cubo=new int[20];
+        System.out.println("|  n  |  n2  |   n3  |");
+        System.out.println("----------------------");
         for(int i=0;i<20;i++){
             numero[i]=(int)(Math.random()*101);
             cuadrado[i]=(int)(Math.pow(numero[i], 2));
             cubo[i]=(int)(Math.pow(numero[i], 3));
-            System.out.printf("|%-7d|%-7d|%-7d|%n",numero[i],cuadrado[i],cubo[i]);
+            System.out.printf("|%-5d|%-6d|%-7d|%n",numero[i],cuadrado[i],cubo[i]);
         }
     }
 }
