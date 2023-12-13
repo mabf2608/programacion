@@ -1,3 +1,8 @@
+/*
+*Ejercicio 1 | Tema 7.1
+*Matriz básica
+*@author Miguel Ángel Bonilla Fernández 1ºDAM
+*/
 public class Ejercicio1{
     public static void crear_tabla(int[][] num){
         System.out.println();
