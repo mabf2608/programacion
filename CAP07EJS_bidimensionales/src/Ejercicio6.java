@@ -1,9 +1,23 @@
 /*
 *Ejercicio 5 | Tema 7.1
-*Tabla matriz con máximo y mínimo
+*Tabla matriz con máximo y mínimo sin repetir numeros
 *@author Miguel Ángel Bonilla Fernández 1ºDAM
 */
-public class Ejercicio5 {
+public class Ejercicio6 {
+    public static boolean recorrer_matriz(int[][] numeros,int numero, int v1, int v2){
+        boolean se_repite=true;
+        int i;
+        int j;
+        for(i=0;i<=v1;i++){
+            for(j=0;j<v2;j++){
+                if(numero!=numeros[i][j]){
+                    se_repite=false;
+                    break;
+                }
+            }
+        }
+        return se_repite;
+    }
     public static int[][] rellenar_matriz(int[][] numeros){
         int nummax=1000;
         int nummin=0;
@@ -11,7 +25,13 @@ public class Ejercicio5 {
         int j;
         for(i=0;i<6;i++){
             for(j=0;j<10;j++){
-                numeros[i][j]=(int)(Math.random()*(nummax-nummin+1)+nummin);
+                boolean seguir=true;
+                while(seguir){
+                    numeros[i][j]=(int)(Math.random()*(nummax-nummin+1)+nummin);
+                    if ((i==0&&j==0)||!recorrer_matriz(numeros,numeros[i][j],i,j)){
+                        seguir=false;
+                    }
+                }
             }
         }
         return numeros;
