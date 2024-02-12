@@ -1,3 +1,8 @@
+/*
+*Ejercicio 3 | Tema 9
+*Implementa las clases indicadas en el enunciado.
+*@author Miguel Ángel Bonilla Fernández 1ºDAM
+*/
 package ejercicios.ejercicio3;
 
 public class Animal {

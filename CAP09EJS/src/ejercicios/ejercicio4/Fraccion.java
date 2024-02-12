@@ -1,3 +1,9 @@
+/*
+*Ejercicio 4 | Tema 9
+*Implementa la clase fraccion, y pruebala.
+*@author Miguel Ángel Bonilla Fernández 1ºDAM
+*/
+
 package ejercicios.ejercicio4;
 
 public class Fraccion{
