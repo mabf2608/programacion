@@ -4,5 +4,8 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
     ],
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.debug.settings.showQualifiedNames": false,
+    "java.debug.settings.showHex": false,
+    "java.debug.settings.showStaticVariables": true
 }
