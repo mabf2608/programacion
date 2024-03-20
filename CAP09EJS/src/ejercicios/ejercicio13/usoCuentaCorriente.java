@@ -1,5 +1,5 @@
 /*
-*Ejercicio 12 | Tema 9
+*Ejercicio 13 | Tema 9
 *Cuenta corriente.
 *@author Miguel Ángel Bonilla Fernández 1ºDAM
 */

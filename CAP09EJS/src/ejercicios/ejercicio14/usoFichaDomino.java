@@ -1,3 +1,9 @@
+/*
+*Ejercicio 13 | Tema 9
+*Ficha Domino 1.
+*@author Miguel Ángel Bonilla Fernández 1ºDAM
+*/
+
 package ejercicios.ejercicio14;
 
 public class usoFichaDomino {
