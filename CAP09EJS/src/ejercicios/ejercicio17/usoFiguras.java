@@ -1,3 +1,9 @@
+/*
+*Ejercicio 17 | Tema 9
+*Pirámide y Rectángulos.
+*@author Miguel Ángel Bonilla Fernández 1ºDAM
+*/
+
 package ejercicios.ejercicio17;
 
 public class usoFiguras {
